@@ -1,54 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Saeed Zahran - Portfolio</title>
+  <title>Saeed Zahran</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      max-width: 800px;
+      max-width: 850px;
       margin: auto;
-      padding: 20px;
+      padding: 30px;
       line-height: 1.6;
     }
-    h1, h2 {
+    img.profile {
+      float: right;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-left: 20px;
+    }
+    h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+    h2 {
       color: #333;
     }
-    a {
-      color: #0066cc;
-      text-decoration: none;
+    .linkbar a {
+      margin-right: 15px;
     }
-    a:hover {
-      text-decoration: underline;
-    }
-    .section {
-      margin-bottom: 40px;
+    .highlight {
+      background-color: #ffffcc;
+      padding: 10px;
+      border-left: 5px solid #ffcc00;
+      margin-bottom: 20px;
     }
   </style>
 </head>
 <body>
+  <img src="profile.jpg" alt="Saeed Zahran" class="profile">
   <h1>Saeed Zahran</h1>
-  <p>I enjoy dealing with different data types and extracting meaningful and useful insights.</p>
+  <p>I enjoy dealing with different data types and extracting meaningful and useful insights. I'm currently a postdoctoral researcher working on the neural basis of perception and action, with expertise in EEG, MEG, VR, and biomedical signal analysis.</p>
 
-  <div class="section">
-    <h2>CV</h2>
-    <p><a href="CVz.pdf" target="_blank">Download my CV (PDF)</a></p>
+  <div class="linkbar">
+    <a href="mailto:saeedzahranutc@gmail.com">Email</a>
+    <a href="CVz.pdf">CV</a>
+    <a href="https://scholar.google.com/citations?user=_QysWfIAAAAJ&hl=fr&oi=ao" target="_blank">Scholar</a>
+    <a href="https://www.linkedin.com/in/saeed-zahran-70145869/" target="_blank">LinkedIn</a>
+    <a href="https://github.com/zahransa" target="_blank">GitHub</a>
+    <a href="https://www.youtube.com/@saeedzahran1963" target="_blank">YouTube</a>
   </div>
 
-  <div class="section">
-    <h2>Projects</h2>
-    <ul>
-      <li><strong>Feed Bird</strong> – <a href="https://github.com/zahransa/Feed_Bird" target="_blank">GitHub Repo</a><br>
-        Interactive experiment exploring sensory attenuation in dynamic tasks.
-      </li>
-    </ul>
+  <h2>Research Highlights</h2>
+
+  <div class="highlight">
+    <strong>Performance Analysis of Optically Pumped 4He Magnetometers vs. Conventional SQUIDs</strong><br>
+    Zahran, S., et al. (Sensors, 2022) <br>
+    <a href="https://www.mdpi.com/1424-8220/22/8/3093" target="_blank">[Link to paper]</a><br>
+    We compared OPMs to conventional SQUIDs for MEG acquisition across head models from infants to adults. Our analysis demonstrates the improved spatial resolution and flexibility of OPM-based systems, especially for pediatric neuroimaging.
   </div>
 
-  <div class="section">
-    <h2>Contact</h2>
-    <p>Email: saeedzahranutc@gmail.com<br>
-       LinkedIn: <a href="https://www.linkedin.com/in/saeed-zahran-phd-70145869/" target="_blank">linkedin.com/in/saeed-zahran-phd</a></p>
+  <div class="highlight">
+    <strong>Performance of Source Imaging Techniques of Spatially Extended Generators of Uterine Activity</strong><br>
+    Zahran, S., et al. (Informatics in Medicine Unlocked, 2019) <br>
+    <a href="https://www.sciencedirect.com/science/article/pii/S2352914818302053" target="_blank">[Link to paper]</a><br>
+    This study evaluated different inverse methods for imaging spatially distributed uterine activity during pregnancy. The results highlight the potential of noninvasive electrophysiological imaging for clinical assessment of uterine contractions.
   </div>
+
+  <h2>Project</h2>
+  <p><strong>Feed Bird</strong> – <a href="https://github.com/zahransa/Feed_Bird" target="_blank">GitHub Repo</a><br>
+  An interactive experiment exploring sensory attenuation in dynamic, game-based tasks using motor preparation windows and response accuracy.</p>
 </body>
 </html>
